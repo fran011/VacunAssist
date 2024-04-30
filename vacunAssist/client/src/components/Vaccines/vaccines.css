@@ -1,0 +1,49 @@
+.vaccines-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vaccine {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 33%;
+  padding: 1em;
+  border-radius: 0.5em;
+  border-color: var(--primary-color);
+  border-style: solid;
+  border-width: 1.5px;
+  margin: 1em 0.1em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.vaccine p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.inscription-container {
+  text-align: center;
+}
+
+.inscription-container p {
+  font-size: 0.75em;
+}
+
+.already-registered {
+  color: var(--primary-color);
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25em 0;
+}
+
+.btn-certificate {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: bold;
+}

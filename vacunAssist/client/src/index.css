@@ -1,0 +1,36 @@
+:root {
+  --primary-color: rgb(46, 139, 87);
+  --primary-color-second: rgba(2, 136, 2, 0.5);
+  --input-border-color: rgba(2, 136, 2, 0.5);
+  --input-border-color-focus: rgba(0, 226, 0, 0.5);
+  --error-message: rgb(233, 12, 12);
+  --form-background: rgba(255, 255, 255, 0.4);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #aaffa9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #11ffbd, #aaffa9); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #11ffbd, #aaffa9);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  -webkit-padding-start: 0;
+}
+
+p {
+  margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,72 @@
+.onboarding-container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  min-height: 100vh;
+}
+
+.select {
+  background-color: transparent;
+  border-radius: 0.25em;
+  border-style: solid;
+  border-color: var(--primary-color-second);
+  border-width: 0.05em;
+  font-weight: 600;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.buttons-container {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comorbidities-container {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.comorbidities-container p {
+  opacity: 0.45;
+  cursor: pointer;
+  margin-bottom: 0.2em;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.comorbidities-container p:hover {
+  transform: scale(1.025);
+  opacity: 0.75;
+}
+
+.comorbidities-container .active {
+  opacity: 0.9;
+}
+
+.validation-message {
+  color: var(--primary-color-second);
+  font-weight: bold;
+  font-size: 0.75em;
+  margin: 0.5em 0;
+}
+
+.error-message {
+  color: var(--error-message);
+  font-weight: bold;
+  font-size: 0.75em;
+  margin: 0.5em 0;
+}
+
+.home-banner {
+  width: 90%;
+  margin: auto 0;
+  transition: transform 0.5s;
+}
+
+.home-banner:hover {
+  transform: scale(1.05);
+}

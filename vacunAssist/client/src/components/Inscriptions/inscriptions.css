@@ -1,0 +1,21 @@
+.inscriptions-container {
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+
+.inscriptions-items {
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.inscription-title {
+  font-weight: bold;
+}
+
+.inscriptions-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0.5em 0;
+  width: 15vw;
+}
